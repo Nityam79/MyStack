@@ -23,6 +23,8 @@ public class MyStack<E>  {
         return e;
     }
 
-
+    public boolean isEmpty() {
+        return delegate.isEmpty();
+    }
 
 }
